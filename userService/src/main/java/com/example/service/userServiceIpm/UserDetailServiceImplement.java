@@ -14,6 +14,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Random;
 import java.util.stream.Collectors;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Component("userDetailService")
@@ -36,6 +37,9 @@ public class UserDetailServiceImplement implements UserDetailsService {
                 =  user.getRoles().stream().map(auth -> new SimpleGrantedAuthority(auth)).collect(Collectors.toList());
         return new org.springframework.security.core.userdetails.User(user.getUserName(), user.getPassWord(), grantedAuthorities);
     }
+
+
+
 
     @Transactional
     public UserDetails loadUserByEmail(String email)

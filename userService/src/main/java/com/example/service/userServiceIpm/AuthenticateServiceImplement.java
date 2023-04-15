@@ -16,6 +16,8 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
+import java.util.Random;
+
 @Service
 public class AuthenticateServiceImplement implements AuthenticateService {
 
@@ -29,9 +31,15 @@ public class AuthenticateServiceImplement implements AuthenticateService {
     TokenProvider tokenProvider;
     @Override
     public User signup(UserDto dto) {
-        return null;
-    }
 
+        return null;
+
+    }
+    private String generateOTP() {
+        Random random = new Random();
+        int otp = 100000 + random.nextInt(900000);
+        return Integer.toString(otp);
+    }
     public JWTTokenResponse login(LoginDto loginDto) {
         UsernamePasswordAuthenticationToken authenticationString = new UsernamePasswordAuthenticationToken(
                 loginDto.getUserName(),

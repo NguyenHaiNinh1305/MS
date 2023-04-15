@@ -9,7 +9,18 @@ spring:
       database: ms
       field-naming-strategy: org.springframework.data.mapping.model.SnakeCaseFieldNamingStrategy
       auto-index-creation: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: clipnhac123@gmail.com
+    password: dwzhntvhqvreelvy
 
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
 application:
   security:
     jwt:

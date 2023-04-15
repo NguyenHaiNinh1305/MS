@@ -50,4 +50,6 @@ public class UserDto extends BaseDto {
     private Address permanentAddress; // địa chỉ thường chú
 
     private UserType userType;
+
+
 }

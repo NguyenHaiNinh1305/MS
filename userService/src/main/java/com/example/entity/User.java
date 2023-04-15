@@ -52,6 +52,8 @@ public class User extends BaseEntity {
 
     private UserType userType;
 
+    private  String dto;
+
     public User(String subject, String s, Collection<GrantedAuthority> authorities) {
     }
 
