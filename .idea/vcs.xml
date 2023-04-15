@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MS/apigateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MS/bookservice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MS/borrowingservice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MS/commonservice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MS/discoveryserver" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MS/employeeservice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MS/notificationservice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MS/userService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apigateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bookservice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/borrowingservice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/commonservice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/discoveryserver" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/employeeservice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/notificationservice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/userService" vcs="Git" />
+  </component>
+</project>

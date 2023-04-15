@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="MS" />
+      <module name="discoveryserver" />
+      <module name="bookservice" />
+      <module name="employeeservice" />
+      <module name="notificationservice" />
+      <module name="BorrowService" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="523e1ad7-d8a1-4f3e-81a9-d669399e7904" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MS/apigateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/apigateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/apigateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/apigateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/apigateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/apigateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/apigateway/src/main/java/com/ninhnh/apigateway/ApigatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/apigateway/src/main/java/com/ninhnh/apigateway/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/apigateway/src/test/java/com/ninhnh/apigateway/ApigatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/src/main/java/com/ninhnh/borrowingservice/BorrowingserviceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/aggregate/BorrowAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/command/CreateBorrowCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/command/DeleteBorrowCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/controller/BorrowCommandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/data/BorrowRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/data/Borrowing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/events/BorrowCreatedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/events/BorrowDeletedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/events/BorrowingEventsHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/model/BorrowRequestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/saga/BorrowingSaga.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/src/main/java/com/ninhnh/borrowingservice/config/AxonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/borrowingservice/src/test/java/com/ninhnh/borrowingservice/BorrowingserviceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/src/main/java/com/example/commonservice/CommonserviceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/src/main/java/com/example/commonservice/command/UpdateStatusBookCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/src/main/java/com/example/commonservice/dto/BaseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/src/main/java/com/example/commonservice/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/src/main/java/com/example/commonservice/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/src/main/java/com/example/commonservice/enumO/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/src/main/java/com/example/commonservice/enumO/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/src/main/java/com/example/commonservice/enumO/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/src/main/java/com/example/commonservice/enumO/UserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/src/main/java/com/example/commonservice/event/BookUpdateStatusEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/src/main/java/com/example/commonservice/model/BookResponseCommonModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/src/main/java/com/example/commonservice/query/GetDetailsBookQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/commonservice/src/test/java/com/example/commonservice/CommonserviceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/notificationservice/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/notificationservice/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/notificationservice/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/notificationservice/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/notificationservice/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/notificationservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/notificationservice/src/main/java/com/ninhnh/notificationservice/EmployeeReponseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/notificationservice/src/main/java/com/ninhnh/notificationservice/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/notificationservice/src/main/java/com/ninhnh/notificationservice/NotificationserviceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/notificationservice/src/main/java/com/ninhnh/notificationservice/configuration/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/notificationservice/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/notificationservice/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/notificationservice/src/test/java/com/ninhnh/notificationservice/NotificationserviceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/config/AppProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/config/SimpleCORSFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/config/security/JWTFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/config/security/JwtConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/config/security/TokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/config/security/UserPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/config/security/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/config/security/oauth2/CustomOAuth2UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/config/security/oauth2/GoogleOAuth2UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/config/security/oauth2/HttpCookieOAuth2AuthorizationRequestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/config/security/oauth2/OAuth2AuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/config/security/oauth2/OAuth2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/config/security/oauth2/OAuth2UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/config/security/oauth2/OAuth2UserInfoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/controller/AuthenticateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/dto/LoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/entity/JWTTokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/repo/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/service/AuthenticateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/service/userServiceIpm/AuthenticateServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/service/userServiceIpm/UserDetailServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/service/userServiceIpm/UserServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/java/com/example/utils/SecurityUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS/userService/src/test/java/com/example/UserServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/ninhnh/apigateway/ApigatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/ninhnh/apigateway/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigateway/src/test/java/com/ninhnh/apigateway/ApigatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/src/main/java/com/ninhnh/borrowingservice/BorrowingserviceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/aggregate/BorrowAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/command/CreateBorrowCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/command/DeleteBorrowCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/controller/BorrowCommandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/data/BorrowRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/data/Borrowing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/events/BorrowCreatedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/events/BorrowDeletedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/events/BorrowingEventsHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/model/BorrowRequestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/src/main/java/com/ninhnh/borrowingservice/command/api/saga/BorrowingSaga.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/src/main/java/com/ninhnh/borrowingservice/config/AxonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrowingservice/src/test/java/com/ninhnh/borrowingservice/BorrowingserviceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/src/main/java/com/example/commonservice/CommonserviceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/src/main/java/com/example/commonservice/command/UpdateStatusBookCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/src/main/java/com/example/commonservice/dto/BaseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/src/main/java/com/example/commonservice/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/src/main/java/com/example/commonservice/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/src/main/java/com/example/commonservice/enumO/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/src/main/java/com/example/commonservice/enumO/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/src/main/java/com/example/commonservice/enumO/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/src/main/java/com/example/commonservice/enumO/UserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/src/main/java/com/example/commonservice/event/BookUpdateStatusEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/src/main/java/com/example/commonservice/model/BookResponseCommonModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/src/main/java/com/example/commonservice/query/GetDetailsBookQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonservice/src/test/java/com/example/commonservice/CommonserviceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/src/main/java/com/ninhnh/notificationservice/EmployeeReponseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/src/main/java/com/ninhnh/notificationservice/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/src/main/java/com/ninhnh/notificationservice/NotificationserviceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/src/main/java/com/ninhnh/notificationservice/configuration/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/src/test/java/com/ninhnh/notificationservice/NotificationserviceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/config/AppProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/config/SimpleCORSFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/config/security/JWTFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/config/security/JwtConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/config/security/TokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/config/security/UserPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/config/security/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/config/security/oauth2/CustomOAuth2UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/config/security/oauth2/GoogleOAuth2UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/config/security/oauth2/HttpCookieOAuth2AuthorizationRequestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/config/security/oauth2/OAuth2AuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/config/security/oauth2/OAuth2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/config/security/oauth2/OAuth2UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/config/security/oauth2/OAuth2UserInfoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/controller/AuthenticateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/dto/LoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/entity/JWTTokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/repo/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/service/AuthenticateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/service/userServiceIpm/AuthenticateServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/service/userServiceIpm/UserDetailServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/service/userServiceIpm/UserServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/utils/SecurityUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/test/java/com/example/UserServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS/bookservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MS/bookservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS/bookservice/src/main/java/com/ninhnh/bookservice/command/aggregate/BookAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/MS/bookservice/src/main/java/com/ninhnh/bookservice/command/aggregate/BookAggregate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS/bookservice/src/main/java/com/ninhnh/bookservice/query/projection/BookProjection.java" beforeDir="false" afterPath="$PROJECT_DIR$/MS/bookservice/src/main/java/com/ninhnh/bookservice/query/projection/BookProjection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS/discoveryserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MS/discoveryserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookservice/src/main/java/com/ninhnh/bookservice/command/aggregate/BookAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/ninhnh/bookservice/command/aggregate/BookAggregate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookservice/src/main/java/com/ninhnh/bookservice/query/projection/BookProjection.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/ninhnh/bookservice/query/projection/BookProjection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discoveryserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discoveryserver/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/userService" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2LvGgaZku9XGwAC7GC7o5fNvvlH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/sanguosha&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.21839081&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;spring.boot&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;4b0c93b117b9e3f3eb1fb882ae001fa4&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ninhnh.bookservice.command.event" />
+      <recent name="com.ninhnh.bookservice.command.command" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication (1)">
+    <configuration name="ApigatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="apigateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ninhnh.apigateway.ApigatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bookservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ninhnh.bookservice.BookserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BorrowingserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="borrowingservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ninhnh.borrowingservice.BorrowingserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="commonservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.commonservice.CommonserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="discoveryserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ninhnh.discoveryserver.DiscoveryserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="employeeservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ninhnh.employeeservice.EmployeeserviceApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="notificationservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ninhnh.notificationservice.NotificationserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="userservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="userservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.UserServiceApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.UserServiceApplication (1)" />
+      <item itemvalue="Spring Boot.ApigatewayApplication" />
+      <item itemvalue="Spring Boot.BookserviceApplication" />
+      <item itemvalue="Spring Boot.BorrowingserviceApplication" />
+      <item itemvalue="Spring Boot.CommonserviceApplication" />
+      <item itemvalue="Spring Boot.DiscoveryserverApplication" />
+      <item itemvalue="Spring Boot.EmployeeserviceApplication" />
+      <item itemvalue="Spring Boot.NotificationserviceApplication" />
+      <item itemvalue="Spring Boot.UserServiceApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="523e1ad7-d8a1-4f3e-81a9-d669399e7904" name="Changes" comment="" />
+      <created>1676744254863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676744254863</updated>
+      <workItem from="1676744256402" duration="2467000" />
+      <workItem from="1676828573070" duration="6000" />
+      <workItem from="1676859232058" duration="37000" />
+      <workItem from="1676912222973" duration="3911000" />
+      <workItem from="1677168640972" duration="5669000" />
+      <workItem from="1677221210515" duration="58000" />
+      <workItem from="1677234443663" duration="124000" />
+      <workItem from="1677341852295" duration="38000" />
+      <workItem from="1677341906358" duration="3981000" />
+      <workItem from="1677404712465" duration="2707000" />
+      <workItem from="1677603735889" duration="1396000" />
+      <workItem from="1677685355974" duration="3781000" />
+      <workItem from="1677723765942" duration="5000" />
+      <workItem from="1677810569748" duration="1025000" />
+      <workItem from="1678629353200" duration="1000000" />
+      <workItem from="1678673657444" duration="66000" />
+      <workItem from="1678855563677" duration="851000" />
+      <workItem from="1679128264259" duration="474000" />
+      <workItem from="1679153144961" duration="16131000" />
+      <workItem from="1679291843498" duration="471000" />
+      <workItem from="1679292359346" duration="7543000" />
+      <workItem from="1679310674060" duration="1129000" />
+      <workItem from="1679324146771" duration="8563000" />
+      <workItem from="1679366528546" duration="8465000" />
+      <workItem from="1679394135234" duration="6031000" />
+      <workItem from="1679451018460" duration="3987000" />
+      <workItem from="1679460919869" duration="5190000" />
+      <workItem from="1679584472264" duration="241000" />
+      <workItem from="1680704185008" duration="9606000" />
+      <workItem from="1681230219212" duration="32000" />
+      <workItem from="1681540819417" duration="693000" />
+      <workItem from="1681542194300" duration="676000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bookservice/src/main/java/com/ninhnh/bookservice/command/aggregate/BookAggregate.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/userService/src/main/java/com/example/config/security/oauth2/CustomOAuth2UserService.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.context.ApplicationContextException" package="org.springframework.context" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
