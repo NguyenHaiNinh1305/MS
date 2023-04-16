@@ -50,7 +50,7 @@ this.userRepository=userRepository;
 
         // Use a separate thread to send the email
         new Thread(() -> {
-            emailService.sendOtp(user1.getEmail(), otp);
+            emailService.sendOtpS( user1.getEmail());
         }).start();
 
 
